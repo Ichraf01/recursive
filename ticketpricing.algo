@@ -1,0 +1,15 @@
+ALGORITHM ticketpricing
+VAR
+    x = INTEGER
+BEGIN
+    write("Enter your age :")
+    read(x)
+    IF (x<= 12) THEN
+        write ("This will cost $10")
+    ELSE_IF (x<=17) THEN
+        write ("This will cost $15")
+    ELSE
+        write ("This will cost $20")
+    END_IF
+END
+

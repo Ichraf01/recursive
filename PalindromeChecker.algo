@@ -1,0 +1,14 @@
+FUNCTION palindromeChecker(str:string) : boolean
+VAR
+    rslt:boolean
+BEGIN
+ IF(str.length <=1)
+    RETURN rslt:= true
+   ELSE_IF (str[0]=str.length-1)THEN
+    RETURN  rslt:= palindromeChecker(sous-chaine(str,str[1],str.length-2))
+   ELSE
+    RETURN rslt :=false 
+    RETURN value ;
+ END_IF
+END
+

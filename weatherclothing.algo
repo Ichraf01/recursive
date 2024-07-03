@@ -1,0 +1,16 @@
+ALGORITHM weatherclothing
+VAR
+    weather: STRING
+BEGIN
+    write ("Enter the weather :")
+    read (weather)
+    SWITCH (weather) DO
+        case "summer" : write("You can wear skirts, shorts or loose pants with cropped tops, loose shirts or see throught shirts.") ;BREAK;
+        case "winter" : write("You can wear baggy pants, skirts and dresses with tights or jeans with sweatshirts, high neck sweater
+or basic sweaters with any type of coat.") ;BREAK;
+        case "spring" : write("You can wear skirts, shorts (with tights) or loose pants with cropped tops, loose shirts or see throught shirts with a jacket.") ;BREAK;
+        case "autumn" : write("You can wear baggy pants, skirts, dresses (with tights) or jeans with sweatshirts, high neck sweater
+or basic sweaters with any type of jacket.") ;BREAK;
+        default :  write ("This word do not exist.")
+    END_SWITCH
+END

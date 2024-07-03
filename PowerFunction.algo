@@ -1,0 +1,9 @@
+
+FUNCTION powerfunction(x,n : INTEGER) : INTEGER
+BEGIN
+    IF (n =1 ) THEN
+        RETURN x
+    ELSE
+        RETURN x * powerfunctio(x, n-1)
+    END_IF
+END
